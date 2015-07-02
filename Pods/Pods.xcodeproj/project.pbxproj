@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049451755048C078B729805C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 931873FE187EDC31377D95AD /* MASConstraint.m */; };
+		05EECF6838662E46339F808D /* Pods-TimeTable-UIColor-HexString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344206D7FA97AA3C26152CA /* Pods-TimeTable-UIColor-HexString-dummy.m */; };
+		11556DD734749D58DA5E715C /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A17CB98A82C4AB259F662C /* ViewFrameAccessor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18D7D8530E23FBD57FA0E5EF /* NSArray+MK_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = F065BF5F10460A5F7041307E /* NSArray+MK_Block.m */; };
+		19912D6EFB861607F0CF9EF9 /* NSMutableArray+MK_Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = B84770102D5690AFB7F4A0F7 /* NSMutableArray+MK_Queue.m */; };
+		1EEC9F6989EDF83D7D624A14 /* ScrollViewFrameAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAD10BCE50896FC9BC92975 /* ScrollViewFrameAccessor.h */; };
+		1FF7A0D0C1ECC6F1B6209FB0 /* Pods-TimeTable-Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97B90B772642E0A32B0EDDF /* Pods-TimeTable-Masonry-dummy.m */; };
+		208F43CBB6BFB025E8A7D809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F9598A6592FC0F34056BC /* Foundation.framework */; };
+		22F1C2C512CC5071C1A3B335 /* Pods-TimeTable-FrameAccessor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 933EB509702608993F7D574C /* Pods-TimeTable-FrameAccessor-dummy.m */; };
+		2323F8AD1D298AB678190CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F9598A6592FC0F34056BC /* Foundation.framework */; };
+		290D75ECA98673B1AC7BE6BE /* ViewFrameAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F98D035058121C6DA83934 /* ViewFrameAccessor.h */; };
+		291A7D4DD9ABD52C40BD9EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F9598A6592FC0F34056BC /* Foundation.framework */; };
+		31EE9FE5224C242037396BD9 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD0632781818020DAA1EC64 /* NSLayoutConstraint+MASDebugAdditions.h */; };
+		35894528E0B61E3435068658 /* NSArray+MK_Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 2903D21686CE16C30F2B37A6 /* NSArray+MK_Block.h */; };
+		3916FCD6FBFDAA8D0C94FAC2 /* FrameAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = D991DDBF1CD3B5334484C524 /* FrameAccessor.h */; };
+		3C55ABECD3A94B3A701025AA /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D43A94CAC3897C3E491F7E13 /* MASConstraint.h */; };
+		3F8739FB4C5F56597A46C79A /* NSMutableArray+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = C1762F7C9DBC673E6A711B11 /* NSMutableArray+MK_Misc.h */; };
+		400D8BB81696FBB76FA2229B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D6A961EA3D6F1886E5F4CA /* MASCompositeConstraint.h */; };
+		50D1BBB012DD3BF9D4710B79 /* Pods-TimeTable-MKFoundationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D244EDE176A67026B348864 /* Pods-TimeTable-MKFoundationKit-dummy.m */; };
+		5D481623D6070598895E0D1C /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5519F04A3F244F802D89DD4D /* MASConstraintMaker.h */; };
+		6016E937E19A64EF0F7E00E8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3378D19EC7E4650E45E1C29B /* View+MASAdditions.m */; };
+		691A013EC574C5B29020A2BD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE392C983DEC7C3FB646AFC /* NSArray+MASShorthandAdditions.h */; };
+		692042CD4E2896B1C0BB6421 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4CD7FD6BA80220F5FDDFC9 /* UIColor+HexString.h */; };
+		6FAF6536E11C0FAFAFC98C64 /* NSArray+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6222DF4B61CC7127444750 /* NSArray+MK.h */; };
+		70A286064D0D302407765552 /* Pods-TimeTable-CupertinoYankee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1970A33E8A38FB78D2120078 /* Pods-TimeTable-CupertinoYankee-dummy.m */; };
+		788FB87CC834674449C6F2F4 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ACC8599F42325A4175AE2A /* MASCompositeConstraint.m */; };
+		841210E98C9F603EB289DFBC /* NSMutableArray+MK_Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E307699F0047C2FEC8DC83 /* NSMutableArray+MK_Stack.m */; };
+		861E929CA0F59751A6A8555F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 145F43E61407C1653C404E13 /* Masonry.h */; };
+		904B71FD7884E9BAE437426C /* NSDate+CupertinoYankee.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F486488CCFB5F59DBA3680 /* NSDate+CupertinoYankee.h */; };
+		9298D9AD3310E6150C5FBC66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C82EBB96B7DD0CB7920629 /* UIKit.framework */; };
+		948A6222C99727319F0EFB52 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9F451C8FFD63BC6B47D3BC /* View+MASAdditions.h */; };
+		9BCF2016AEAA6C02622D1444 /* Pods-TimeTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ABD2DC2E84EED0D80DC758 /* Pods-TimeTable-dummy.m */; };
+		9DB097964F8F25239A2E3CEF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B9555841AFBE0A3FAFA58 /* MASViewConstraint.m */; };
+		9F693E60325528DE5949D0F4 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB8FFF823CACD9EA6A727D5 /* MASViewAttribute.h */; };
+		9F846F88E212812E1187E34A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD279C18105ECFB7502CDA2 /* NSArray+MASAdditions.m */; };
+		A37DBF14AFABC739FB44A40C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEABFBD643589FDB0DDAC8 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A9E29A246AD52B20094CA9AA /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCB4D67B9636F2DAE9D88E7 /* View+MASShorthandAdditions.h */; };
+		AC4FBCE73C2BEB050E46CC0A /* NSArray+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9272A9A3DE6CB1133E4E2F47 /* NSArray+MK_Misc.h */; };
+		B13DE5109BA84B8DF63C0C4C /* NSArray+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B4734E5389FA19F6240481 /* NSArray+MK_Misc.m */; };
+		B7E3040AC05124813B182F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F9598A6592FC0F34056BC /* Foundation.framework */; };
+		C0683879F069C5AE642312FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F9598A6592FC0F34056BC /* Foundation.framework */; };
+		C321DFB30E9212FAE7BD65BF /* NSMutableArray+MK_Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB7993605CAE1A33A076941 /* NSMutableArray+MK_Queue.h */; };
+		C57EF195D7BFF2FB75D350E9 /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B50751A674685276408A58DD /* ScrollViewFrameAccessor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC9348214C65BAA9472C6686 /* NSDate+CupertinoYankee.m in Sources */ = {isa = PBXBuildFile; fileRef = FE33E1813566A48292FD4909 /* NSDate+CupertinoYankee.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CEECAAD412697D23EE227403 /* NSMutableArray+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = A08A55D490DE90811947B158 /* NSMutableArray+MK_Misc.m */; };
+		D05FDA8DF0DFE6318CE3A500 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943D0A841F1D2B237037B80 /* MASConstraintMaker.m */; };
+		D70289EC06650810783CF34E /* NSMutableArray+MK_Stack.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D2F48D795AF270C9BB2B9A /* NSMutableArray+MK_Stack.h */; };
+		E1C2F108C07FE4D142995279 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1A75A5463DE22B5017855B /* MASUtilities.h */; };
+		E611A99EC541C14D442854E2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F086EDAF34A82ED18C24A623 /* MASLayoutConstraint.m */; };
+		E6A7BABF6CDE721D7BD8057F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F9598A6592FC0F34056BC /* Foundation.framework */; };
+		F2FEEA76AC0BCB61FF44DB94 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF0408D722A791A98E0AB26 /* NSArray+MASAdditions.h */; };
+		F3290D700261E2D94F341D42 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E52479A31BE0A3DF10CAD966 /* MASViewConstraint.h */; };
+		F7C42F8AED647FB28C16175A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF35F6B5FD305E286028FA7 /* MASViewAttribute.m */; };
+		FB7119C5FE9ADE39CC4200CF /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD5FDFE46EC69AF5F67B042 /* MASLayoutConstraint.h */; };
+		FC46F0F8FEF81E2942110371 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 609B8F02D815B07D9AB83ED5 /* UIColor+HexString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23B9E1D2327034461B4CBD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465CC5F6639DBC1F4ACD055C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C67378440FF35AD9AF3CFD;
+			remoteInfo = "Pods-TimeTable-Masonry";
+		};
+		253E7BB49A09EE77288739CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465CC5F6639DBC1F4ACD055C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D82D24F5FF6A04DD6C04E46;
+			remoteInfo = "Pods-TimeTable-UIColor-HexString";
+		};
+		3E929D1267703BA39B89E85D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465CC5F6639DBC1F4ACD055C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7245E0AB7BD4680CE104C64E;
+			remoteInfo = "Pods-TimeTable-CupertinoYankee";
+		};
+		D7D4D91A415E83D500EB22FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465CC5F6639DBC1F4ACD055C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A0EFB075F41AAD405B9FD7;
+			remoteInfo = "Pods-TimeTable-MKFoundationKit";
+		};
+		F5B3CAFAD9471B4284724AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465CC5F6639DBC1F4ACD055C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 600DAB1BB63CC9A113C291AF;
+			remoteInfo = "Pods-TimeTable-FrameAccessor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF0408D722A791A98E0AB26 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		145F43E61407C1653C404E13 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		15A8FF0545E8362607F17767 /* Pods-TimeTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable.debug.xcconfig"; sourceTree = "<group>"; };
+		1970A33E8A38FB78D2120078 /* Pods-TimeTable-CupertinoYankee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeTable-CupertinoYankee-dummy.m"; sourceTree = "<group>"; };
+		1BE7A9F4F70E434F009B15A1 /* Pods-TimeTable-MKFoundationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-MKFoundationKit.xcconfig"; sourceTree = "<group>"; };
+		1EF2A0224EE95AEC874B2B12 /* Pods-TimeTable-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeTable-environment.h"; sourceTree = "<group>"; };
+		1FB7993605CAE1A33A076941 /* NSMutableArray+MK_Queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MK_Queue.h"; path = "Source/NSArray/NSMutableArray+MK_Queue.h"; sourceTree = "<group>"; };
+		2903D21686CE16C30F2B37A6 /* NSArray+MK_Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MK_Block.h"; path = "Source/NSArray/NSArray+MK_Block.h"; sourceTree = "<group>"; };
+		31A17CB98A82C4AB259F662C /* ViewFrameAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewFrameAccessor.m; path = FrameAccessor/ViewFrameAccessor.m; sourceTree = "<group>"; };
+		3378D19EC7E4650E45E1C29B /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		35D6A961EA3D6F1886E5F4CA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		395689E8B55B3FC0DE744704 /* Pods-TimeTable-MKFoundationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeTable-MKFoundationKit-prefix.pch"; sourceTree = "<group>"; };
+		398DB1CFCE878E67F703BCA9 /* libPods-TimeTable-FrameAccessor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeTable-FrameAccessor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C029882385DDB78D2020FE3 /* Pods-TimeTable-MKFoundationKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-MKFoundationKit-Private.xcconfig"; sourceTree = "<group>"; };
+		3D244EDE176A67026B348864 /* Pods-TimeTable-MKFoundationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeTable-MKFoundationKit-dummy.m"; sourceTree = "<group>"; };
+		3D4CD7FD6BA80220F5FDDFC9 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		43B22FAE916A5089587C94CC /* Pods-TimeTable-Masonry-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-Masonry-Private.xcconfig"; sourceTree = "<group>"; };
+		4A0E5ACC1FA327860A706E17 /* Pods-TimeTable-CupertinoYankee-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeTable-CupertinoYankee-prefix.pch"; sourceTree = "<group>"; };
+		4AB8FFF823CACD9EA6A727D5 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		4ADAEB5C81E4EFCC5AAFA241 /* Pods-TimeTable-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeTable-resources.sh"; sourceTree = "<group>"; };
+		52ACC8599F42325A4175AE2A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5519F04A3F244F802D89DD4D /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		5A989E89BBE034714C6337A6 /* Pods-TimeTable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeTable-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AAD10BCE50896FC9BC92975 /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScrollViewFrameAccessor.h; path = FrameAccessor/ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
+		604B316313CB0B1739E13432 /* Pods-TimeTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable.release.xcconfig"; sourceTree = "<group>"; };
+		609B8F02D815B07D9AB83ED5 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		60F486488CCFB5F59DBA3680 /* NSDate+CupertinoYankee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+CupertinoYankee.h"; path = "CupertinoYankee/NSDate+CupertinoYankee.h"; sourceTree = "<group>"; };
+		6344206D7FA97AA3C26152CA /* Pods-TimeTable-UIColor-HexString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeTable-UIColor-HexString-dummy.m"; sourceTree = "<group>"; };
+		6547EF1ED9936E412A8970C0 /* libPods-TimeTable-Masonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeTable-Masonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6943D0A841F1D2B237037B80 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		6E9F451C8FFD63BC6B47D3BC /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		6EA290B22BD1F6B083C4C5E2 /* libPods-TimeTable-CupertinoYankee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeTable-CupertinoYankee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C82EBB96B7DD0CB7920629 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		77ABD2DC2E84EED0D80DC758 /* Pods-TimeTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeTable-dummy.m"; sourceTree = "<group>"; };
+		7BD5FDFE46EC69AF5F67B042 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7F9C1F91A862983571D5655A /* Pods-TimeTable-Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeTable-Masonry-prefix.pch"; sourceTree = "<group>"; };
+		8FCB4D67B9636F2DAE9D88E7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8FD0632781818020DAA1EC64 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8FE899769AF0343466A989D3 /* libPods-TimeTable-UIColor-HexString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeTable-UIColor-HexString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9272A9A3DE6CB1133E4E2F47 /* NSArray+MK_Misc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MK_Misc.h"; path = "Source/NSArray/NSArray+MK_Misc.h"; sourceTree = "<group>"; };
+		92F302F180FBD35FF0A47696 /* Pods-TimeTable-UIColor-HexString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeTable-UIColor-HexString-prefix.pch"; sourceTree = "<group>"; };
+		931873FE187EDC31377D95AD /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		933EB509702608993F7D574C /* Pods-TimeTable-FrameAccessor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeTable-FrameAccessor-dummy.m"; sourceTree = "<group>"; };
+		983B9555841AFBE0A3FAFA58 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		99B4734E5389FA19F6240481 /* NSArray+MK_Misc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MK_Misc.m"; path = "Source/NSArray/NSArray+MK_Misc.m"; sourceTree = "<group>"; };
+		9AF35F6B5FD305E286028FA7 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		9BE6CF42F2E810CCD02FBE20 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C6222DF4B61CC7127444750 /* NSArray+MK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MK.h"; path = "Source/NSArray/NSArray+MK.h"; sourceTree = "<group>"; };
+		A08A55D490DE90811947B158 /* NSMutableArray+MK_Misc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MK_Misc.m"; path = "Source/NSArray/NSMutableArray+MK_Misc.m"; sourceTree = "<group>"; };
+		A1786A97D4AA169CD9841592 /* Pods-TimeTable-FrameAccessor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeTable-FrameAccessor-prefix.pch"; sourceTree = "<group>"; };
+		A6C8A38A1847F25A8EBA5F3F /* Pods-TimeTable-FrameAccessor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-FrameAccessor-Private.xcconfig"; sourceTree = "<group>"; };
+		AEE392C983DEC7C3FB646AFC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		B3C7890AFB90DC9ED6849645 /* Pods-TimeTable-CupertinoYankee-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-CupertinoYankee-Private.xcconfig"; sourceTree = "<group>"; };
+		B50751A674685276408A58DD /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ScrollViewFrameAccessor.m; path = FrameAccessor/ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
+		B723CD21D6954B9D4F34D9D9 /* Pods-TimeTable-FrameAccessor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-FrameAccessor.xcconfig"; sourceTree = "<group>"; };
+		B84770102D5690AFB7F4A0F7 /* NSMutableArray+MK_Queue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MK_Queue.m"; path = "Source/NSArray/NSMutableArray+MK_Queue.m"; sourceTree = "<group>"; };
+		BFFB350387B9AF6CDF13593E /* libPods-TimeTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E307699F0047C2FEC8DC83 /* NSMutableArray+MK_Stack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MK_Stack.m"; path = "Source/NSArray/NSMutableArray+MK_Stack.m"; sourceTree = "<group>"; };
+		C1762F7C9DBC673E6A711B11 /* NSMutableArray+MK_Misc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MK_Misc.h"; path = "Source/NSArray/NSMutableArray+MK_Misc.h"; sourceTree = "<group>"; };
+		C71DAAD1EC4A6ED35E12EB0B /* Pods-TimeTable-CupertinoYankee.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-CupertinoYankee.xcconfig"; sourceTree = "<group>"; };
+		C7F6918E4F09957EF76CE337 /* Pods-TimeTable-UIColor-HexString-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-UIColor-HexString-Private.xcconfig"; sourceTree = "<group>"; };
+		C97B90B772642E0A32B0EDDF /* Pods-TimeTable-Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeTable-Masonry-dummy.m"; sourceTree = "<group>"; };
+		CE4314DC778C8DA2CCDC78DD /* Pods-TimeTable-UIColor-HexString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-UIColor-HexString.xcconfig"; sourceTree = "<group>"; };
+		CF3DF9603AFB276E8C58B4D1 /* Pods-TimeTable-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeTable-acknowledgements.plist"; sourceTree = "<group>"; };
+		D43A94CAC3897C3E491F7E13 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		D689305A91A1323B71A4711D /* Pods-TimeTable-Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeTable-Masonry.xcconfig"; sourceTree = "<group>"; };
+		D991DDBF1CD3B5334484C524 /* FrameAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FrameAccessor.h; path = FrameAccessor/FrameAccessor.h; sourceTree = "<group>"; };
+		D9EFACFF7BEECF2AC419625F /* libPods-TimeTable-MKFoundationKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeTable-MKFoundationKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F98D035058121C6DA83934 /* ViewFrameAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewFrameAccessor.h; path = FrameAccessor/ViewFrameAccessor.h; sourceTree = "<group>"; };
+		E52479A31BE0A3DF10CAD966 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		ECBEABFBD643589FDB0DDAC8 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F065BF5F10460A5F7041307E /* NSArray+MK_Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MK_Block.m"; path = "Source/NSArray/NSArray+MK_Block.m"; sourceTree = "<group>"; };
+		F086EDAF34A82ED18C24A623 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F4D2F48D795AF270C9BB2B9A /* NSMutableArray+MK_Stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MK_Stack.h"; path = "Source/NSArray/NSMutableArray+MK_Stack.h"; sourceTree = "<group>"; };
+		F58F9598A6592FC0F34056BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA1A75A5463DE22B5017855B /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		FBD279C18105ECFB7502CDA2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FE33E1813566A48292FD4909 /* NSDate+CupertinoYankee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CupertinoYankee.m"; path = "CupertinoYankee/NSDate+CupertinoYankee.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282AE30CE1204660C50246D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A7BABF6CDE721D7BD8057F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373630AF87A16D875654848E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2323F8AD1D298AB678190CDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5CC432D2041DD10C7BFA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291A7D4DD9ABD52C40BD9EB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0514D9E4717D5F2C22CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208F43CBB6BFB025E8A7D809 /* Foundation.framework in Frameworks */,
+				9298D9AD3310E6150C5FBC66 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAA41CF9CB6B38135E176B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E3040AC05124813B182F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EA0455480CB7B8E16B00C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0683879F069C5AE642312FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C52FDA71482761E3877A87 /* Pods-TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				5A989E89BBE034714C6337A6 /* Pods-TimeTable-acknowledgements.markdown */,
+				CF3DF9603AFB276E8C58B4D1 /* Pods-TimeTable-acknowledgements.plist */,
+				77ABD2DC2E84EED0D80DC758 /* Pods-TimeTable-dummy.m */,
+				1EF2A0224EE95AEC874B2B12 /* Pods-TimeTable-environment.h */,
+				4ADAEB5C81E4EFCC5AAFA241 /* Pods-TimeTable-resources.sh */,
+				15A8FF0545E8362607F17767 /* Pods-TimeTable.debug.xcconfig */,
+				604B316313CB0B1739E13432 /* Pods-TimeTable.release.xcconfig */,
+			);
+			name = "Pods-TimeTable";
+			path = "Target Support Files/Pods-TimeTable";
+			sourceTree = "<group>";
+		};
+		16D9F6CA8E61E24736444AA1 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				9C6222DF4B61CC7127444750 /* NSArray+MK.h */,
+				2903D21686CE16C30F2B37A6 /* NSArray+MK_Block.h */,
+				F065BF5F10460A5F7041307E /* NSArray+MK_Block.m */,
+				9272A9A3DE6CB1133E4E2F47 /* NSArray+MK_Misc.h */,
+				99B4734E5389FA19F6240481 /* NSArray+MK_Misc.m */,
+				C1762F7C9DBC673E6A711B11 /* NSMutableArray+MK_Misc.h */,
+				A08A55D490DE90811947B158 /* NSMutableArray+MK_Misc.m */,
+				1FB7993605CAE1A33A076941 /* NSMutableArray+MK_Queue.h */,
+				B84770102D5690AFB7F4A0F7 /* NSMutableArray+MK_Queue.m */,
+				F4D2F48D795AF270C9BB2B9A /* NSMutableArray+MK_Stack.h */,
+				C0E307699F0047C2FEC8DC83 /* NSMutableArray+MK_Stack.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		32C44D460982192EF9FA0D51 /* UIColor-HexString */ = {
+			isa = PBXGroup;
+			children = (
+				3D4CD7FD6BA80220F5FDDFC9 /* UIColor+HexString.h */,
+				609B8F02D815B07D9AB83ED5 /* UIColor+HexString.m */,
+				EDD72FCE1D1348D3F44DA288 /* Support Files */,
+			);
+			path = "UIColor-HexString";
+			sourceTree = "<group>";
+		};
+		41848FC16415A201D27AF131 /* CupertinoYankee */ = {
+			isa = PBXGroup;
+			children = (
+				60F486488CCFB5F59DBA3680 /* NSDate+CupertinoYankee.h */,
+				FE33E1813566A48292FD4909 /* NSDate+CupertinoYankee.m */,
+				A6C5453A2747E34809437B10 /* Support Files */,
+			);
+			path = CupertinoYankee;
+			sourceTree = "<group>";
+		};
+		47FF743B08A4608E92955B52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE7A9F4F70E434F009B15A1 /* Pods-TimeTable-MKFoundationKit.xcconfig */,
+				3C029882385DDB78D2020FE3 /* Pods-TimeTable-MKFoundationKit-Private.xcconfig */,
+				3D244EDE176A67026B348864 /* Pods-TimeTable-MKFoundationKit-dummy.m */,
+				395689E8B55B3FC0DE744704 /* Pods-TimeTable-MKFoundationKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TimeTable-MKFoundationKit";
+			sourceTree = "<group>";
+		};
+		6726EA501FE48BDC579543F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B723CD21D6954B9D4F34D9D9 /* Pods-TimeTable-FrameAccessor.xcconfig */,
+				A6C8A38A1847F25A8EBA5F3F /* Pods-TimeTable-FrameAccessor-Private.xcconfig */,
+				933EB509702608993F7D574C /* Pods-TimeTable-FrameAccessor-dummy.m */,
+				A1786A97D4AA169CD9841592 /* Pods-TimeTable-FrameAccessor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TimeTable-FrameAccessor";
+			sourceTree = "<group>";
+		};
+		78FF9D85839EADB0482B59BC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F58F9598A6592FC0F34056BC /* Foundation.framework */,
+				74C82EBB96B7DD0CB7920629 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D73321754063E16A2409F19 /* MKFoundationKit */ = {
+			isa = PBXGroup;
+			children = (
+				16D9F6CA8E61E24736444AA1 /* NSArray */,
+				47FF743B08A4608E92955B52 /* Support Files */,
+			);
+			path = MKFoundationKit;
+			sourceTree = "<group>";
+		};
+		88AC8DB93E1E8DEB3F29F127 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C52FDA71482761E3877A87 /* Pods-TimeTable */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		93757E1DF82896048175B58D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D689305A91A1323B71A4711D /* Pods-TimeTable-Masonry.xcconfig */,
+				43B22FAE916A5089587C94CC /* Pods-TimeTable-Masonry-Private.xcconfig */,
+				C97B90B772642E0A32B0EDDF /* Pods-TimeTable-Masonry-dummy.m */,
+				7F9C1F91A862983571D5655A /* Pods-TimeTable-Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TimeTable-Masonry";
+			sourceTree = "<group>";
+		};
+		A6C5453A2747E34809437B10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71DAAD1EC4A6ED35E12EB0B /* Pods-TimeTable-CupertinoYankee.xcconfig */,
+				B3C7890AFB90DC9ED6849645 /* Pods-TimeTable-CupertinoYankee-Private.xcconfig */,
+				1970A33E8A38FB78D2120078 /* Pods-TimeTable-CupertinoYankee-dummy.m */,
+				4A0E5ACC1FA327860A706E17 /* Pods-TimeTable-CupertinoYankee-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TimeTable-CupertinoYankee";
+			sourceTree = "<group>";
+		};
+		BD63CAFA602EE18E78B81288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFB350387B9AF6CDF13593E /* libPods-TimeTable.a */,
+				6EA290B22BD1F6B083C4C5E2 /* libPods-TimeTable-CupertinoYankee.a */,
+				398DB1CFCE878E67F703BCA9 /* libPods-TimeTable-FrameAccessor.a */,
+				D9EFACFF7BEECF2AC419625F /* libPods-TimeTable-MKFoundationKit.a */,
+				6547EF1ED9936E412A8970C0 /* libPods-TimeTable-Masonry.a */,
+				8FE899769AF0343466A989D3 /* libPods-TimeTable-UIColor-HexString.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8898C6A7F9D6F9E8A244850 = {
+			isa = PBXGroup;
+			children = (
+				9BE6CF42F2E810CCD02FBE20 /* Podfile */,
+				E3E3CDF5901C2B68AF1422F1 /* Frameworks */,
+				E2B3A59EC1E95CE4D6CEA2E7 /* Pods */,
+				BD63CAFA602EE18E78B81288 /* Products */,
+				88AC8DB93E1E8DEB3F29F127 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1CF8B3174BA5D4A4384330 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				35D6A961EA3D6F1886E5F4CA /* MASCompositeConstraint.h */,
+				52ACC8599F42325A4175AE2A /* MASCompositeConstraint.m */,
+				D43A94CAC3897C3E491F7E13 /* MASConstraint.h */,
+				931873FE187EDC31377D95AD /* MASConstraint.m */,
+				5519F04A3F244F802D89DD4D /* MASConstraintMaker.h */,
+				6943D0A841F1D2B237037B80 /* MASConstraintMaker.m */,
+				7BD5FDFE46EC69AF5F67B042 /* MASLayoutConstraint.h */,
+				F086EDAF34A82ED18C24A623 /* MASLayoutConstraint.m */,
+				FA1A75A5463DE22B5017855B /* MASUtilities.h */,
+				4AB8FFF823CACD9EA6A727D5 /* MASViewAttribute.h */,
+				9AF35F6B5FD305E286028FA7 /* MASViewAttribute.m */,
+				E52479A31BE0A3DF10CAD966 /* MASViewConstraint.h */,
+				983B9555841AFBE0A3FAFA58 /* MASViewConstraint.m */,
+				145F43E61407C1653C404E13 /* Masonry.h */,
+				0AF0408D722A791A98E0AB26 /* NSArray+MASAdditions.h */,
+				FBD279C18105ECFB7502CDA2 /* NSArray+MASAdditions.m */,
+				AEE392C983DEC7C3FB646AFC /* NSArray+MASShorthandAdditions.h */,
+				8FD0632781818020DAA1EC64 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				ECBEABFBD643589FDB0DDAC8 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6E9F451C8FFD63BC6B47D3BC /* View+MASAdditions.h */,
+				3378D19EC7E4650E45E1C29B /* View+MASAdditions.m */,
+				8FCB4D67B9636F2DAE9D88E7 /* View+MASShorthandAdditions.h */,
+				93757E1DF82896048175B58D /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		E2B3A59EC1E95CE4D6CEA2E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41848FC16415A201D27AF131 /* CupertinoYankee */,
+				F5635FE8ED286668E8186D1C /* FrameAccessor */,
+				7D73321754063E16A2409F19 /* MKFoundationKit */,
+				DA1CF8B3174BA5D4A4384330 /* Masonry */,
+				32C44D460982192EF9FA0D51 /* UIColor-HexString */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3E3CDF5901C2B68AF1422F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78FF9D85839EADB0482B59BC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD72FCE1D1348D3F44DA288 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4314DC778C8DA2CCDC78DD /* Pods-TimeTable-UIColor-HexString.xcconfig */,
+				C7F6918E4F09957EF76CE337 /* Pods-TimeTable-UIColor-HexString-Private.xcconfig */,
+				6344206D7FA97AA3C26152CA /* Pods-TimeTable-UIColor-HexString-dummy.m */,
+				92F302F180FBD35FF0A47696 /* Pods-TimeTable-UIColor-HexString-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TimeTable-UIColor-HexString";
+			sourceTree = "<group>";
+		};
+		F5635FE8ED286668E8186D1C /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				D991DDBF1CD3B5334484C524 /* FrameAccessor.h */,
+				5AAD10BCE50896FC9BC92975 /* ScrollViewFrameAccessor.h */,
+				B50751A674685276408A58DD /* ScrollViewFrameAccessor.m */,
+				E3F98D035058121C6DA83934 /* ViewFrameAccessor.h */,
+				31A17CB98A82C4AB259F662C /* ViewFrameAccessor.m */,
+				6726EA501FE48BDC579543F2 /* Support Files */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E39CCDC13A13D15929898B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400D8BB81696FBB76FA2229B /* MASCompositeConstraint.h in Headers */,
+				3C55ABECD3A94B3A701025AA /* MASConstraint.h in Headers */,
+				5D481623D6070598895E0D1C /* MASConstraintMaker.h in Headers */,
+				FB7119C5FE9ADE39CC4200CF /* MASLayoutConstraint.h in Headers */,
+				E1C2F108C07FE4D142995279 /* MASUtilities.h in Headers */,
+				9F693E60325528DE5949D0F4 /* MASViewAttribute.h in Headers */,
+				F3290D700261E2D94F341D42 /* MASViewConstraint.h in Headers */,
+				861E929CA0F59751A6A8555F /* Masonry.h in Headers */,
+				F2FEEA76AC0BCB61FF44DB94 /* NSArray+MASAdditions.h in Headers */,
+				691A013EC574C5B29020A2BD /* NSArray+MASShorthandAdditions.h in Headers */,
+				31EE9FE5224C242037396BD9 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				948A6222C99727319F0EFB52 /* View+MASAdditions.h in Headers */,
+				A9E29A246AD52B20094CA9AA /* View+MASShorthandAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E96487C2FE43074EF9EAD88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692042CD4E2896B1C0BB6421 /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA55BCEB96AE762D2CEEC4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3916FCD6FBFDAA8D0C94FAC2 /* FrameAccessor.h in Headers */,
+				1EEC9F6989EDF83D7D624A14 /* ScrollViewFrameAccessor.h in Headers */,
+				290D75ECA98673B1AC7BE6BE /* ViewFrameAccessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482548A8F1585C116109AB35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAF6536E11C0FAFAFC98C64 /* NSArray+MK.h in Headers */,
+				35894528E0B61E3435068658 /* NSArray+MK_Block.h in Headers */,
+				AC4FBCE73C2BEB050E46CC0A /* NSArray+MK_Misc.h in Headers */,
+				3F8739FB4C5F56597A46C79A /* NSMutableArray+MK_Misc.h in Headers */,
+				C321DFB30E9212FAE7BD65BF /* NSMutableArray+MK_Queue.h in Headers */,
+				D70289EC06650810783CF34E /* NSMutableArray+MK_Stack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB64E20BF9E26C290C92D17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904B71FD7884E9BAE437426C /* NSDate+CupertinoYankee.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		258962CE0B63FB19E28B9985 /* Pods-TimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119DE97F4AE7517E5924BC6D /* Build configuration list for PBXNativeTarget "Pods-TimeTable" */;
+			buildPhases = (
+				FECFBD0AF636BEA4F301FD81 /* Sources */,
+				F0EA0455480CB7B8E16B00C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C751BF78B9C1EBCA7124867 /* PBXTargetDependency */,
+				26787602649085F9550AE192 /* PBXTargetDependency */,
+				B46A67A93D66444BBA17B099 /* PBXTargetDependency */,
+				AD629F2B27FCDCB32498A2CB /* PBXTargetDependency */,
+				CC85376BD0BD84ADA90874A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeTable";
+			productName = "Pods-TimeTable";
+			productReference = BFFB350387B9AF6CDF13593E /* libPods-TimeTable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		600DAB1BB63CC9A113C291AF /* Pods-TimeTable-FrameAccessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCED8378980DE0C93657A4C6 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-FrameAccessor" */;
+			buildPhases = (
+				19CA5900AC78B53BA7C70077 /* Sources */,
+				373630AF87A16D875654848E /* Frameworks */,
+				3FA55BCEB96AE762D2CEEC4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TimeTable-FrameAccessor";
+			productName = "Pods-TimeTable-FrameAccessor";
+			productReference = 398DB1CFCE878E67F703BCA9 /* libPods-TimeTable-FrameAccessor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7245E0AB7BD4680CE104C64E /* Pods-TimeTable-CupertinoYankee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FD27DF905D787D04D76C03 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-CupertinoYankee" */;
+			buildPhases = (
+				9CDE5DEA3F76621A3C3D9CF7 /* Sources */,
+				282AE30CE1204660C50246D8 /* Frameworks */,
+				DBB64E20BF9E26C290C92D17 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TimeTable-CupertinoYankee";
+			productName = "Pods-TimeTable-CupertinoYankee";
+			productReference = 6EA290B22BD1F6B083C4C5E2 /* libPods-TimeTable-CupertinoYankee.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90C67378440FF35AD9AF3CFD /* Pods-TimeTable-Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182DEA898528F2418C56F509 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-Masonry" */;
+			buildPhases = (
+				89432355E0191CF936B67207 /* Sources */,
+				5BE0514D9E4717D5F2C22CC3 /* Frameworks */,
+				1E39CCDC13A13D15929898B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TimeTable-Masonry";
+			productName = "Pods-TimeTable-Masonry";
+			productReference = 6547EF1ED9936E412A8970C0 /* libPods-TimeTable-Masonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9D82D24F5FF6A04DD6C04E46 /* Pods-TimeTable-UIColor-HexString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200A908B7661A6CC4BE3C20B /* Build configuration list for PBXNativeTarget "Pods-TimeTable-UIColor-HexString" */;
+			buildPhases = (
+				2D3362DF25703ED51DEF4E84 /* Sources */,
+				6FAA41CF9CB6B38135E176B8 /* Frameworks */,
+				3E96487C2FE43074EF9EAD88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TimeTable-UIColor-HexString";
+			productName = "Pods-TimeTable-UIColor-HexString";
+			productReference = 8FE899769AF0343466A989D3 /* libPods-TimeTable-UIColor-HexString.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E0A0EFB075F41AAD405B9FD7 /* Pods-TimeTable-MKFoundationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BB4191B1456471B902A193 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-MKFoundationKit" */;
+			buildPhases = (
+				7CC4E55825573739627ECEDB /* Sources */,
+				5B5CC432D2041DD10C7BFA25 /* Frameworks */,
+				482548A8F1585C116109AB35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TimeTable-MKFoundationKit";
+			productName = "Pods-TimeTable-MKFoundationKit";
+			productReference = D9EFACFF7BEECF2AC419625F /* libPods-TimeTable-MKFoundationKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465CC5F6639DBC1F4ACD055C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 6F7B7596E9A7F825B24FF4C2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8898C6A7F9D6F9E8A244850;
+			productRefGroup = BD63CAFA602EE18E78B81288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				258962CE0B63FB19E28B9985 /* Pods-TimeTable */,
+				7245E0AB7BD4680CE104C64E /* Pods-TimeTable-CupertinoYankee */,
+				600DAB1BB63CC9A113C291AF /* Pods-TimeTable-FrameAccessor */,
+				E0A0EFB075F41AAD405B9FD7 /* Pods-TimeTable-MKFoundationKit */,
+				90C67378440FF35AD9AF3CFD /* Pods-TimeTable-Masonry */,
+				9D82D24F5FF6A04DD6C04E46 /* Pods-TimeTable-UIColor-HexString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CA5900AC78B53BA7C70077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F1C2C512CC5071C1A3B335 /* Pods-TimeTable-FrameAccessor-dummy.m in Sources */,
+				C57EF195D7BFF2FB75D350E9 /* ScrollViewFrameAccessor.m in Sources */,
+				11556DD734749D58DA5E715C /* ViewFrameAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3362DF25703ED51DEF4E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EECF6838662E46339F808D /* Pods-TimeTable-UIColor-HexString-dummy.m in Sources */,
+				FC46F0F8FEF81E2942110371 /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC4E55825573739627ECEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D7D8530E23FBD57FA0E5EF /* NSArray+MK_Block.m in Sources */,
+				B13DE5109BA84B8DF63C0C4C /* NSArray+MK_Misc.m in Sources */,
+				CEECAAD412697D23EE227403 /* NSMutableArray+MK_Misc.m in Sources */,
+				19912D6EFB861607F0CF9EF9 /* NSMutableArray+MK_Queue.m in Sources */,
+				841210E98C9F603EB289DFBC /* NSMutableArray+MK_Stack.m in Sources */,
+				50D1BBB012DD3BF9D4710B79 /* Pods-TimeTable-MKFoundationKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89432355E0191CF936B67207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788FB87CC834674449C6F2F4 /* MASCompositeConstraint.m in Sources */,
+				049451755048C078B729805C /* MASConstraint.m in Sources */,
+				D05FDA8DF0DFE6318CE3A500 /* MASConstraintMaker.m in Sources */,
+				E611A99EC541C14D442854E2 /* MASLayoutConstraint.m in Sources */,
+				F7C42F8AED647FB28C16175A /* MASViewAttribute.m in Sources */,
+				9DB097964F8F25239A2E3CEF /* MASViewConstraint.m in Sources */,
+				9F846F88E212812E1187E34A /* NSArray+MASAdditions.m in Sources */,
+				A37DBF14AFABC739FB44A40C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				1FF7A0D0C1ECC6F1B6209FB0 /* Pods-TimeTable-Masonry-dummy.m in Sources */,
+				6016E937E19A64EF0F7E00E8 /* View+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDE5DEA3F76621A3C3D9CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9348214C65BAA9472C6686 /* NSDate+CupertinoYankee.m in Sources */,
+				70A286064D0D302407765552 /* Pods-TimeTable-CupertinoYankee-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECFBD0AF636BEA4F301FD81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCF2016AEAA6C02622D1444 /* Pods-TimeTable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26787602649085F9550AE192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeTable-FrameAccessor";
+			target = 600DAB1BB63CC9A113C291AF /* Pods-TimeTable-FrameAccessor */;
+			targetProxy = F5B3CAFAD9471B4284724AB9 /* PBXContainerItemProxy */;
+		};
+		2C751BF78B9C1EBCA7124867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeTable-CupertinoYankee";
+			target = 7245E0AB7BD4680CE104C64E /* Pods-TimeTable-CupertinoYankee */;
+			targetProxy = 3E929D1267703BA39B89E85D /* PBXContainerItemProxy */;
+		};
+		AD629F2B27FCDCB32498A2CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeTable-Masonry";
+			target = 90C67378440FF35AD9AF3CFD /* Pods-TimeTable-Masonry */;
+			targetProxy = 23B9E1D2327034461B4CBD11 /* PBXContainerItemProxy */;
+		};
+		B46A67A93D66444BBA17B099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeTable-MKFoundationKit";
+			target = E0A0EFB075F41AAD405B9FD7 /* Pods-TimeTable-MKFoundationKit */;
+			targetProxy = D7D4D91A415E83D500EB22FB /* PBXContainerItemProxy */;
+		};
+		CC85376BD0BD84ADA90874A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeTable-UIColor-HexString";
+			target = 9D82D24F5FF6A04DD6C04E46 /* Pods-TimeTable-UIColor-HexString */;
+			targetProxy = 253E7BB49A09EE77288739CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		161CCF49BCBF2050007802FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C029882385DDB78D2020FE3 /* Pods-TimeTable-MKFoundationKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-MKFoundationKit/Pods-TimeTable-MKFoundationKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3650534C7E861C36BE56C5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604B316313CB0B1739E13432 /* Pods-TimeTable.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38081338DEB50054C66C7D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A8FF0545E8362607F17767 /* Pods-TimeTable.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FF6A067180F9469FB2713F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F6918E4F09957EF76CE337 /* Pods-TimeTable-UIColor-HexString-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-UIColor-HexString/Pods-TimeTable-UIColor-HexString-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42AFCA66B1B5787BBEACBCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C7890AFB90DC9ED6849645 /* Pods-TimeTable-CupertinoYankee-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-CupertinoYankee/Pods-TimeTable-CupertinoYankee-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B7A5DDD9460ADA721243721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B22FAE916A5089587C94CC /* Pods-TimeTable-Masonry-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-Masonry/Pods-TimeTable-Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5381A2B4FC4F7EDD18314BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C7890AFB90DC9ED6849645 /* Pods-TimeTable-CupertinoYankee-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-CupertinoYankee/Pods-TimeTable-CupertinoYankee-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7390FC9A359D1229A866CC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B22FAE916A5089587C94CC /* Pods-TimeTable-Masonry-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-Masonry/Pods-TimeTable-Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		765C8D53993EF457071BB4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C8A38A1847F25A8EBA5F3F /* Pods-TimeTable-FrameAccessor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-FrameAccessor/Pods-TimeTable-FrameAccessor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B1461B90EC6C039ED81B61EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C029882385DDB78D2020FE3 /* Pods-TimeTable-MKFoundationKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-MKFoundationKit/Pods-TimeTable-MKFoundationKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CE9195B9148A3B68733C650F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF54E01486EF9FF338FD2FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C8A38A1847F25A8EBA5F3F /* Pods-TimeTable-FrameAccessor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-FrameAccessor/Pods-TimeTable-FrameAccessor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E95AC03408F9663053A23C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F6918E4F09957EF76CE337 /* Pods-TimeTable-UIColor-HexString-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimeTable-UIColor-HexString/Pods-TimeTable-UIColor-HexString-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F19B31B71DA23B72864AA8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		119DE97F4AE7517E5924BC6D /* Build configuration list for PBXNativeTarget "Pods-TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38081338DEB50054C66C7D4C /* Debug */,
+				3650534C7E861C36BE56C5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182DEA898528F2418C56F509 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7390FC9A359D1229A866CC06 /* Debug */,
+				4B7A5DDD9460ADA721243721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200A908B7661A6CC4BE3C20B /* Build configuration list for PBXNativeTarget "Pods-TimeTable-UIColor-HexString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF6A067180F9469FB2713F3 /* Debug */,
+				E95AC03408F9663053A23C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7B7596E9A7F825B24FF4C2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19B31B71DA23B72864AA8D6 /* Debug */,
+				CE9195B9148A3B68733C650F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BB4191B1456471B902A193 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-MKFoundationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161CCF49BCBF2050007802FD /* Debug */,
+				B1461B90EC6C039ED81B61EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FD27DF905D787D04D76C03 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-CupertinoYankee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFCA66B1B5787BBEACBCEE /* Debug */,
+				5381A2B4FC4F7EDD18314BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCED8378980DE0C93657A4C6 /* Build configuration list for PBXNativeTarget "Pods-TimeTable-FrameAccessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765C8D53993EF457071BB4F3 /* Debug */,
+				DF54E01486EF9FF338FD2FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465CC5F6639DBC1F4ACD055C /* Project object */;
+}
